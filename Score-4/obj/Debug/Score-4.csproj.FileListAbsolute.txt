@@ -1,0 +1,17 @@
+C:\Users\pc\Google Drive\aueb 7th semester\τεχνητη νοημοσυνη\εργασια 1\1η εργασια\Score-4\Score-4\bin\Debug\Score-4.exe.config
+C:\Users\pc\Google Drive\aueb 7th semester\τεχνητη νοημοσυνη\εργασια 1\1η εργασια\Score-4\Score-4\bin\Debug\Score-4.exe
+C:\Users\pc\Google Drive\aueb 7th semester\τεχνητη νοημοσυνη\εργασια 1\1η εργασια\Score-4\Score-4\bin\Debug\Score-4.pdb
+C:\Users\pc\Google Drive\aueb 7th semester\τεχνητη νοημοσυνη\εργασια 1\1η εργασια\Score-4\Score-4\obj\Debug\Score-4.csprojResolveAssemblyReference.cache
+C:\Users\pc\Google Drive\aueb 7th semester\τεχνητη νοημοσυνη\εργασια 1\1η εργασια\Score-4\Score-4\obj\Debug\MainWindow.g.cs
+C:\Users\pc\Google Drive\aueb 7th semester\τεχνητη νοημοσυνη\εργασια 1\1η εργασια\Score-4\Score-4\obj\Debug\App.g.cs
+C:\Users\pc\Google Drive\aueb 7th semester\τεχνητη νοημοσυνη\εργασια 1\1η εργασια\Score-4\Score-4\obj\Debug\Score-4_MarkupCompile.cache
+C:\Users\pc\Google Drive\aueb 7th semester\τεχνητη νοημοσυνη\εργασια 1\1η εργασια\Score-4\Score-4\obj\Debug\Score-4_MarkupCompile.lref
+C:\Users\pc\Google Drive\aueb 7th semester\τεχνητη νοημοσυνη\εργασια 1\1η εργασια\Score-4\Score-4\obj\Debug\MainWindow.baml
+C:\Users\pc\Google Drive\aueb 7th semester\τεχνητη νοημοσυνη\εργασια 1\1η εργασια\Score-4\Score-4\obj\Debug\Score-4.g.resources
+C:\Users\pc\Google Drive\aueb 7th semester\τεχνητη νοημοσυνη\εργασια 1\1η εργασια\Score-4\Score-4\obj\Debug\Score_4.Properties.Resources.resources
+C:\Users\pc\Google Drive\aueb 7th semester\τεχνητη νοημοσυνη\εργασια 1\1η εργασια\Score-4\Score-4\obj\Debug\Score-4.csproj.GenerateResource.Cache
+C:\Users\pc\Google Drive\aueb 7th semester\τεχνητη νοημοσυνη\εργασια 1\1η εργασια\Score-4\Score-4\obj\Debug\Score-4.exe
+C:\Users\pc\Google Drive\aueb 7th semester\τεχνητη νοημοσυνη\εργασια 1\1η εργασια\Score-4\Score-4\obj\Debug\Score-4.pdb
+C:\Users\archo\Google Drive\aueb 7th semester\τεχνητη νοημοσυνη\εργασια 1\1η εργασια\Score-4\Score-4\bin\Debug\Score-4.exe.config
+C:\Users\archo\Google Drive\aueb 7th semester\τεχνητη νοημοσυνη\εργασια 1\1η εργασια\Score-4\Score-4\obj\Debug\Score-4.exe
+C:\Users\archo\Google Drive\aueb 7th semester\τεχνητη νοημοσυνη\εργασια 1\1η εργασια\Score-4\Score-4\obj\Debug\Score-4.pdb
