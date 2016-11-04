@@ -26,13 +26,13 @@
             <RowDefinition Height="58*"/>
         </Grid.RowDefinitions>
 
-        <Button Grid.Column="0" Grid.RowSpan="6" Name="col0"/>
-        <Button Grid.Column="1" Grid.RowSpan="6" Name="col1"/>
-        <Button Grid.Column="2" Grid.RowSpan="6" Name="col2"/>
-        <Button Grid.Column="3" Grid.RowSpan="6" Name="col4"/>
-        <Button Grid.Column="4" Grid.RowSpan="6" Name="col5"/>
-        <Button Grid.Column="5" Grid.RowSpan="6" Name="col6"/>
-        <Button Grid.Column="6" Grid.RowSpan="6" Name="col7"/> 
+        <Button Grid.Column="0" Grid.RowSpan="6" Name="col0" Click="play0"/>
+        <Button Grid.Column="1" Grid.RowSpan="6" Name="col1" Click="play1"/>
+        <Button Grid.Column="2" Grid.RowSpan="6" Name="col2" Click="play2"/>
+        <Button Grid.Column="3" Grid.RowSpan="6" Name="col4" Click="play3"/>
+        <Button Grid.Column="4" Grid.RowSpan="6" Name="col5" Click="play4"/>
+        <Button Grid.Column="5" Grid.RowSpan="6" Name="col6" Click="play5"/>
+        <Button Grid.Column="6" Grid.RowSpan="6" Name="col7" Click="play6"/> 
 
         <Rectangle Grid.Column="0" Grid.Row="0" Name="c00"/>
         <Rectangle Grid.Column="0" Grid.Row="1" Name="c01"/>
