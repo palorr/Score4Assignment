@@ -17,7 +17,6 @@ namespace Score_4
 {
     public partial class MainWindow : Window
     {
-        private Rectangle[,] CellsNames;
         private int[,] Cells;
         private State s;
         Player cpuPlayer; 
@@ -27,21 +26,6 @@ namespace Score_4
             InitializeComponent();
             //////
             this.s = new State();
-            //////
-            Dictionary<string, int> names = new Dictionary<string, int>();
-            for (int i = 0; i < 6; i++)
-            {
-                for (int j = 0; j < 7; j++)
-                {
-                    names.Add(String.Format("name{0}", i.ToString()), i);
-                }
-            }
-
-            
-
-            var xx1 = names["name1"];
-            var xx2 = names["name2"];
-            var xx3 = names["name3"];
             //////
             this.Cells = s.sentDataForGraph(); 
             //////
@@ -105,7 +89,7 @@ namespace Score_4
             s.push(pcMove.getCol());
             refreshGraph(s.sentDataForGraph());
         }
-        public void refreshGraph(int [,] Cells)
+        public void refreshGraph(int [,] Cells)//den vlepetai alla variemai na asxolithw allo 
         {
             for (int i = 0; i < 6; i++)
             {
@@ -113,8 +97,14 @@ namespace Score_4
                 {
                     if (Cells[i, j] == 0)
                         continue;
-                    else if (Cells[i,j]==1)
-                        (Rectangle)CellsNames[i,j].Fill = new SolidColorBrush(System.Windows.Media.Colors.AliceBlue);
+                    else if (Cells[i, j] == 1)
+                    {
+                        
+                    }
+                        //.Fill = new SolidColorBrush(System.Windows.Media.Colors.Red);
+                    else if (Cells[i, j] == 2) { }
+
+
                 }
             }
         }
