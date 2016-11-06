@@ -22,14 +22,12 @@ namespace Score_4
          
         }
 
-        void play0(Object sender, EventArgs e)
+        void play0(Object sender,EventArgs e)
         {
-            Console.WriteLine(s.isTerminal());
             if (!s.isTerminal())
             {
                 s.push(0);
                 refreshGraph(s.sentDataForGraph());
-                Console.WriteLine(s.isTerminal());
                 if (!s.isTerminal())
                 {
                     Move pcMove = cpuPlayer.MiniMax(s);
@@ -40,12 +38,10 @@ namespace Score_4
         }
         void play1(Object sender,EventArgs e)
         {
-            Console.WriteLine(s.isTerminal());
             if (!s.isTerminal())
             {
                 s.push(1);
                 refreshGraph(s.sentDataForGraph());
-                Console.WriteLine(s.isTerminal());
                 if (!s.isTerminal())
                 {
                     Move pcMove = cpuPlayer.MiniMax(s);
@@ -54,14 +50,12 @@ namespace Score_4
                 }
             }
         }
-        void play2(Object sender, EventArgs e)
+        void play2(Object sender,EventArgs e)
         {
-            Console.WriteLine(s.isTerminal());
             if (!s.isTerminal())
             {
                 s.push(2);
                 refreshGraph(s.sentDataForGraph());
-                Console.WriteLine(s.isTerminal());
                 if (!s.isTerminal())
                 {
                     Move pcMove = cpuPlayer.MiniMax(s);
@@ -72,12 +66,10 @@ namespace Score_4
         }
         void play3(Object sender,EventArgs e)
         {
-            Console.WriteLine(s.isTerminal());
             if (!s.isTerminal())
             {
                 s.push(3);
                 refreshGraph(s.sentDataForGraph());
-                Console.WriteLine(s.isTerminal());
                 if (!s.isTerminal())
                 {
                     Move pcMove = cpuPlayer.MiniMax(s);
@@ -88,12 +80,10 @@ namespace Score_4
         }
         void play4(Object sender,EventArgs e)
         {
-            Console.WriteLine(s.isTerminal());
             if (!s.isTerminal())
             {
                 s.push(4);
                 refreshGraph(s.sentDataForGraph());
-                Console.WriteLine(s.isTerminal());
                 if (!s.isTerminal())
                 {
                     Move pcMove = cpuPlayer.MiniMax(s);
@@ -102,14 +92,12 @@ namespace Score_4
                 }
             }
         }
-        void play5(Object sender, EventArgs e)
+        void play5(Object sender,EventArgs e)
         {
-            Console.WriteLine(s.isTerminal());
             if (!s.isTerminal())
             {
                 s.push(5);
                 refreshGraph(s.sentDataForGraph());
-                Console.WriteLine(s.isTerminal());
                 if (!s.isTerminal())
                 {
                     Move pcMove = cpuPlayer.MiniMax(s);
@@ -120,12 +108,10 @@ namespace Score_4
         }
         void play6(Object sender,EventArgs e)
         {
-            Console.WriteLine(s.isTerminal());
             if (!s.isTerminal())
             {
                 s.push(6);
                 refreshGraph(s.sentDataForGraph());
-                Console.WriteLine(s.isTerminal());
                 if (!s.isTerminal())
                 {
                     Move pcMove = cpuPlayer.MiniMax(s);
@@ -134,7 +120,7 @@ namespace Score_4
                 }
             }
         }
-        public void refreshGraph(int [,] Cells)//den vlepetai alla variemai na asxolithw allo 
+        public void refreshGraph(int [,] Cells)//polu bad practise alla den thn paleuw na asxolithw allo
         {
             for (int i = 0; i < 6; i++)
             {
