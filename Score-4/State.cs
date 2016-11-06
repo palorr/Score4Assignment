@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Score_4
 {
@@ -11,7 +9,7 @@ namespace Score_4
         private int player;//player whο has to play 
         public bool terminal;//shows us if this state of the game is terminal
         private int lastcol;//holds the last col
-        private int[,] Cells;
+        private int [,] Cells;
         private int score;
         private const int ROWS_NUM = 6;
         private const int COLS_NUM = 7;
@@ -345,7 +343,7 @@ namespace Score_4
             }
             return sum;
         }
-        //the methods i need for children
+        //the methods I need for children
         public bool push(int col)
         {
             bool pushDone = false;

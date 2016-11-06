@@ -10,13 +10,13 @@ namespace Score_4
     {
         private int maxDepth;
         private int player; //the player we want to autoplay (1 for red , 2 for yellow)
-
+        //
         public Player(int maxDepth, int player)//ctor
         {
             this.maxDepth = maxDepth;
             this.player = player;
         }
-
+        //
         public Move MiniMax(State state)
         {
             //If the RED plays then it wants to MAXimize the heuristics value
@@ -30,7 +30,7 @@ namespace Score_4
                 return min(new State(state), 0);
             }
         }
-
+        //
         public Move max(State state, int depth)
         {
             Random r = new Random();
