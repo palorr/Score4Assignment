@@ -109,6 +109,7 @@ namespace Score_4
         {
             this.score = 0;
             this.score += rowScore() + colScore() + mainDScore() + secondaryDScore() + center();
+            //Console.WriteLine("score= " + score);
             //Console.WriteLine("row :" + rowScore());
             //Console.WriteLine("column :" + colScore());
             //Console.WriteLine("main diagonal:" + mainDScore());
@@ -255,6 +256,10 @@ namespace Score_4
 
                             }
                         }
+                        else
+                        {
+                            mainDiagonalCount = 1;
+                        }
                     }
                     i++; j++;
                     if (i == 5 || j == 6)
@@ -313,6 +318,10 @@ namespace Score_4
                                 }
 
                             }
+                        }
+                        else
+                        {
+                            secondaryDiagonalCount = 1;
                         }
                     }
                     i--; j++;
