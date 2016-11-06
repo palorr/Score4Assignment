@@ -35,53 +35,53 @@
         <Button Grid.Column="6" Grid.RowSpan="6" Name="col7" Click="play6"/> 
 
         <Rectangle Grid.Column="0" Grid.Row="0" Name="c00"/>
-        <Rectangle Grid.Column="0" Grid.Row="1" Name="c01"/>
-        <Rectangle Grid.Column="0" Grid.Row="2" Name="c02"/>
-        <Rectangle Grid.Column="0" Grid.Row="3" Name="c03"/>
-        <Rectangle Grid.Column="0" Grid.Row="4" Name="c04"/>
-        <Rectangle Grid.Column="0" Grid.Row="5" Name="c05"/>
+        <Rectangle Grid.Column="0" Grid.Row="1" Name="c10"/>
+        <Rectangle Grid.Column="0" Grid.Row="2" Name="c20"/>
+        <Rectangle Grid.Column="0" Grid.Row="3" Name="c30"/>
+        <Rectangle Grid.Column="0" Grid.Row="4" Name="c40"/>
+        <Rectangle Grid.Column="0" Grid.Row="5" Name="c50"/>
 
-        <Rectangle Grid.Column="1" Grid.Row="0" Name="c10"/>
+        <Rectangle Grid.Column="1" Grid.Row="0" Name="c01"/>
         <Rectangle Grid.Column="1" Grid.Row="1" Name="c11"/>
-        <Rectangle Grid.Column="1" Grid.Row="2" Name="c12"/>
-        <Rectangle Grid.Column="1" Grid.Row="3" Name="c13"/>
-        <Rectangle Grid.Column="1" Grid.Row="4" Name="c14"/>
-        <Rectangle Grid.Column="1" Grid.Row="5" Name="c15"/>
+        <Rectangle Grid.Column="1" Grid.Row="2" Name="c21"/>
+        <Rectangle Grid.Column="1" Grid.Row="3" Name="c31"/>
+        <Rectangle Grid.Column="1" Grid.Row="4" Name="c41"/>
+        <Rectangle Grid.Column="1" Grid.Row="5" Name="c51"/>
 
-        <Rectangle Grid.Column="2" Grid.Row="0" Name="c20"/>
-        <Rectangle Grid.Column="2" Grid.Row="1" Name="c21"/>
+        <Rectangle Grid.Column="2" Grid.Row="0" Name="c02"/>
+        <Rectangle Grid.Column="2" Grid.Row="1" Name="c12"/>
         <Rectangle Grid.Column="2" Grid.Row="2" Name="c22"/>
-        <Rectangle Grid.Column="2" Grid.Row="3" Name="c23"/>
-        <Rectangle Grid.Column="2" Grid.Row="4" Name="c24"/>
-        <Rectangle Grid.Column="2" Grid.Row="5" Name="c25"/>
+        <Rectangle Grid.Column="2" Grid.Row="3" Name="c32"/>
+        <Rectangle Grid.Column="2" Grid.Row="4" Name="c42"/>
+        <Rectangle Grid.Column="2" Grid.Row="5" Name="c52"/>
 
-        <Rectangle Grid.Column="3" Grid.Row="0" Name="c30"/>
-        <Rectangle Grid.Column="3" Grid.Row="1" Name="c31"/>
-        <Rectangle Grid.Column="3" Grid.Row="2" Name="c32"/>
+        <Rectangle Grid.Column="3" Grid.Row="0" Name="c03"/>
+        <Rectangle Grid.Column="3" Grid.Row="1" Name="c13"/>
+        <Rectangle Grid.Column="3" Grid.Row="2" Name="c23"/>
         <Rectangle Grid.Column="3" Grid.Row="3" Name="c33"/>
-        <Rectangle Grid.Column="3" Grid.Row="4" Name="c34"/>
-        <Rectangle Grid.Column="3" Grid.Row="5" Name="c35"/>
+        <Rectangle Grid.Column="3" Grid.Row="4" Name="c43"/>
+        <Rectangle Grid.Column="3" Grid.Row="5" Name="c53"/>
 
-        <Rectangle Grid.Column="4" Grid.Row="0" Name="c40"/>
-        <Rectangle Grid.Column="4" Grid.Row="1" Name="c41"/>
-        <Rectangle Grid.Column="4" Grid.Row="2" Name="c42"/>
-        <Rectangle Grid.Column="4" Grid.Row="3" Name="c43"/>
+        <Rectangle Grid.Column="4" Grid.Row="0" Name="c04"/>
+        <Rectangle Grid.Column="4" Grid.Row="1" Name="c14"/>
+        <Rectangle Grid.Column="4" Grid.Row="2" Name="c24"/>
+        <Rectangle Grid.Column="4" Grid.Row="3" Name="c34"/>
         <Rectangle Grid.Column="4" Grid.Row="4" Name="c44"/>
-        <Rectangle Grid.Column="4" Grid.Row="5" Name="c45"/>
+        <Rectangle Grid.Column="4" Grid.Row="5" Name="c54"/>
 
-        <Rectangle Grid.Column="5" Grid.Row="0" Name="c50"/>
-        <Rectangle Grid.Column="5" Grid.Row="1" Name="c51"/>
-        <Rectangle Grid.Column="5" Grid.Row="2" Name="c52"/>
-        <Rectangle Grid.Column="5" Grid.Row="3" Name="c53"/>
-        <Rectangle Grid.Column="5" Grid.Row="4" Name="c54"/>
+        <Rectangle Grid.Column="5" Grid.Row="0" Name="c05"/>
+        <Rectangle Grid.Column="5" Grid.Row="1" Name="c15"/>
+        <Rectangle Grid.Column="5" Grid.Row="2" Name="c25"/>
+        <Rectangle Grid.Column="5" Grid.Row="3" Name="c35"/>
+        <Rectangle Grid.Column="5" Grid.Row="4" Name="c45"/>
         <Rectangle Grid.Column="5" Grid.Row="5" Name="c55"/>
 
-        <Rectangle Grid.Column="6" Grid.Row="0" Name="c60"/>
-        <Rectangle Grid.Column="6" Grid.Row="1" Name="c61"/>
-        <Rectangle Grid.Column="6" Grid.Row="2" Name="c62"/>
-        <Rectangle Grid.Column="6" Grid.Row="3" Name="c63"/>
-        <Rectangle Grid.Column="6" Grid.Row="4" Name="c64"/>
-        <Rectangle Grid.Column="6" Grid.Row="5" Name="c65"/>
+        <Rectangle Grid.Column="6" Grid.Row="0" Name="c06"/>
+        <Rectangle Grid.Column="6" Grid.Row="1" Name="c16"/>
+        <Rectangle Grid.Column="6" Grid.Row="2" Name="c26"/>
+        <Rectangle Grid.Column="6" Grid.Row="3" Name="c36"/>
+        <Rectangle Grid.Column="6" Grid.Row="4" Name="c46"/>
+        <Rectangle Grid.Column="6" Grid.Row="5" Name="c56"/>
 
     </Grid>
 </Window>

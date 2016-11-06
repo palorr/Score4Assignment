@@ -17,7 +17,7 @@ namespace Score_4
         private const int COLS_NUM = 7;
         private const int PLAYER_RED = 1;
         private const int PLAYER_YELLOW = 2;
-        // Constructors 
+        //Constructors 
         public State() //initial state
         {
             this.player = 1; //always player red plays first 
@@ -84,10 +84,27 @@ namespace Score_4
         public bool isTerminal()
         {
             this.terminal = false;
+            //
+            int counter = 0; 
+            for (int i = 0; i < ROWS_NUM; i++)
+            {
+                for (int j = 0; j < COLS_NUM; j++)
+                {
+                    if (Cells[i,j]==0)
+                    {
+                        counter++; 
+                    }
+                }
+            }
+            //
             this.heuristic(); //we call this method only because we need her line scanners to find 4 in a row ,also we update the score var 
+            //
+            if (counter == 0)
+                this.terminal = true;
+            //
             return this.terminal;
         }
-        /// All the methods i need for calculating the score of each state
+        //all the methods i need for calculating the score of each state
         public void heuristic()//creates a sum of our score
         {
             this.score = 0;
@@ -311,7 +328,7 @@ namespace Score_4
             for (int i = ROWS_NUM - 1; i <= 0; i--)
             {
                 if (Cells[i, 3] == 0)
-                    break;
+                    continue;
                 else if (Cells[i, 3] == 1)
                     sum += 1;
                 else if (Cells[i, 3] == 2)
@@ -414,5 +431,6 @@ namespace Score_4
         {
             return this.Cells; 
         }
+        //
     }
 }

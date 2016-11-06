@@ -29,3 +29,17 @@ C:\Users\archo\Desktop\Score4Assignment\Score-4\obj\Debug\MainWindow.baml
 C:\Users\archo\Desktop\Score4Assignment\Score-4\obj\Debug\Score-4.g.resources
 C:\Users\archo\Desktop\Score4Assignment\Score-4\obj\Debug\Score_4.Properties.Resources.resources
 C:\Users\archo\Desktop\Score4Assignment\Score-4\obj\Debug\Score-4.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Score4Assignment\Score-4\bin\Debug\Score-4.exe.config
+C:\Users\pc\Desktop\Score4Assignment\Score-4\obj\Debug\Score-4.exe
+C:\Users\pc\Desktop\Score4Assignment\Score-4\obj\Debug\Score-4.pdb
+C:\Users\pc\Desktop\Score4Assignment\Score-4\bin\Debug\Score-4.exe
+C:\Users\pc\Desktop\Score4Assignment\Score-4\bin\Debug\Score-4.pdb
+C:\Users\pc\Desktop\Score4Assignment\Score-4\obj\Debug\Score-4.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Score4Assignment\Score-4\obj\Debug\MainWindow.g.cs
+C:\Users\pc\Desktop\Score4Assignment\Score-4\obj\Debug\App.g.cs
+C:\Users\pc\Desktop\Score4Assignment\Score-4\obj\Debug\Score-4_MarkupCompile.cache
+C:\Users\pc\Desktop\Score4Assignment\Score-4\obj\Debug\Score-4_MarkupCompile.lref
+C:\Users\pc\Desktop\Score4Assignment\Score-4\obj\Debug\MainWindow.baml
+C:\Users\pc\Desktop\Score4Assignment\Score-4\obj\Debug\Score-4.g.resources
+C:\Users\pc\Desktop\Score4Assignment\Score-4\obj\Debug\Score_4.Properties.Resources.resources
+C:\Users\pc\Desktop\Score4Assignment\Score-4\obj\Debug\Score-4.csproj.GenerateResource.Cache
