@@ -43,3 +43,17 @@ C:\Users\pc\Desktop\Score4Assignment\Score-4\obj\Debug\MainWindow.baml
 C:\Users\pc\Desktop\Score4Assignment\Score-4\obj\Debug\Score-4.g.resources
 C:\Users\pc\Desktop\Score4Assignment\Score-4\obj\Debug\Score_4.Properties.Resources.resources
 C:\Users\pc\Desktop\Score4Assignment\Score-4\obj\Debug\Score-4.csproj.GenerateResource.Cache
+C:\Users\nickolas\Documents\GitHub\Score4Assignment\Score-4\bin\Debug\Score-4.exe.config
+C:\Users\nickolas\Documents\GitHub\Score4Assignment\Score-4\obj\Debug\Score-4.exe
+C:\Users\nickolas\Documents\GitHub\Score4Assignment\Score-4\obj\Debug\Score-4.pdb
+C:\Users\nickolas\Documents\GitHub\Score4Assignment\Score-4\bin\Debug\Score-4.exe
+C:\Users\nickolas\Documents\GitHub\Score4Assignment\Score-4\bin\Debug\Score-4.pdb
+C:\Users\nickolas\Documents\GitHub\Score4Assignment\Score-4\obj\Debug\Score-4.csprojResolveAssemblyReference.cache
+C:\Users\nickolas\Documents\GitHub\Score4Assignment\Score-4\obj\Debug\MainWindow.g.cs
+C:\Users\nickolas\Documents\GitHub\Score4Assignment\Score-4\obj\Debug\App.g.cs
+C:\Users\nickolas\Documents\GitHub\Score4Assignment\Score-4\obj\Debug\Score-4_MarkupCompile.cache
+C:\Users\nickolas\Documents\GitHub\Score4Assignment\Score-4\obj\Debug\Score-4_MarkupCompile.lref
+C:\Users\nickolas\Documents\GitHub\Score4Assignment\Score-4\obj\Debug\MainWindow.baml
+C:\Users\nickolas\Documents\GitHub\Score4Assignment\Score-4\obj\Debug\Score-4.g.resources
+C:\Users\nickolas\Documents\GitHub\Score4Assignment\Score-4\obj\Debug\Score_4.Properties.Resources.resources
+C:\Users\nickolas\Documents\GitHub\Score4Assignment\Score-4\obj\Debug\Score-4.csproj.GenerateResource.Cache

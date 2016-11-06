@@ -24,7 +24,7 @@ namespace Score_4
 
         void play0(Object sender, EventArgs e)
         {
-            Console.WriteLine(s.isTerminal());
+            Console.WriteLine("Red" + s.isTerminal());
             if (!s.isTerminal())
             {
                 s.push(0);
@@ -40,7 +40,7 @@ namespace Score_4
         }
         void play1(Object sender,EventArgs e)
         {
-            Console.WriteLine(s.isTerminal());
+            Console.WriteLine("Red" + s.isTerminal());
             if (!s.isTerminal())
             {
                 s.push(1);
@@ -56,7 +56,7 @@ namespace Score_4
         }
         void play2(Object sender, EventArgs e)
         {
-            Console.WriteLine(s.isTerminal());
+            Console.WriteLine("Red" + s.isTerminal());
             if (!s.isTerminal())
             {
                 s.push(2);
@@ -72,7 +72,7 @@ namespace Score_4
         }
         void play3(Object sender,EventArgs e)
         {
-            Console.WriteLine(s.isTerminal());
+            Console.WriteLine("Red" + s.isTerminal());
             if (!s.isTerminal())
             {
                 s.push(3);
@@ -88,7 +88,7 @@ namespace Score_4
         }
         void play4(Object sender,EventArgs e)
         {
-            Console.WriteLine(s.isTerminal());
+            Console.WriteLine("Red" + s.isTerminal());
             if (!s.isTerminal())
             {
                 s.push(4);
@@ -104,7 +104,7 @@ namespace Score_4
         }
         void play5(Object sender, EventArgs e)
         {
-            Console.WriteLine(s.isTerminal());
+            Console.WriteLine("Red" + s.isTerminal());
             if (!s.isTerminal())
             {
                 s.push(5);
@@ -120,7 +120,7 @@ namespace Score_4
         }
         void play6(Object sender,EventArgs e)
         {
-            Console.WriteLine(s.isTerminal());
+            Console.WriteLine("Red" + s.isTerminal());
             if (!s.isTerminal())
             {
                 s.push(6);
