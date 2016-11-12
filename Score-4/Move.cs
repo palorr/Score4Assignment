@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//Νικόλαος Παπαδογούλας 3130160, Αρχοντέλλης Ραφαήλ Σωτηρχέλλης 3130198
 
 namespace Score_4
 {

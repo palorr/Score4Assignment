@@ -1,8 +1,7 @@
-﻿using System;
+﻿//Νικόλαος Παπαδογούλας 3130160, Αρχοντέλλης Ραφαήλ Σωτηρχέλλης 3130198
+
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Score_4
 {
@@ -40,19 +39,15 @@ namespace Score_4
                 Move lastMove = new Move(state.getLastCol(), state.getScore());
                 return lastMove;
             }
-            //The children-moves of the state are calculated
             List<State> children = new List<State>(state.GetChildren());
             Move maxMove = new Move(Int32.MinValue);
             foreach (State child in children)
             {
-                //And for each child min is called, on a lower depth
                 Move move = min(child, depth + 1);
-                //The child-move with the greatest value is selected and returned by max
                 if (move.getValue() >= maxMove.getValue())
                 {
                     if ((move.getValue() == maxMove.getValue()))
                     {
-                        //If the heuristic has the same value then we randomly choose one of the two moves
                         if (r.Next(2) == 0)
                         {
                             maxMove.setCol(child.getLastCol());

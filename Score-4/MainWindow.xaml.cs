@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Νικόλαος Παπαδογούλας 3130160, Αρχοντέλλης Ραφαήλ Σωτηρχέλλης 3130198
+
+using System;
 using System.Windows;
 using System.Windows.Media;
 
@@ -120,7 +122,7 @@ namespace Score_4
                 }
             }
         }
-        public void refreshGraph(int [,] Cells)//polu bad practise alla den thn paleuw na asxolithw allo
+        public void refreshGraph(int [,] Cells)//bad practise
         {
             for (int i = 0; i < 6; i++)
             {

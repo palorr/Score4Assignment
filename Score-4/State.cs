@@ -1,6 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿//Νικόλαος Παπαδογούλας 3130160, Αρχοντέλλης Ραφαήλ Σωτηρχέλλης 3130198
 
+using System;
+using System.Collections.Generic;
 
 namespace Score_4
 {
@@ -102,7 +103,7 @@ namespace Score_4
             //
             return this.terminal;
         }
-        //all the methods i need for calculating the score of each state
+        //all the methods I need for calculating the score of each state
         public void heuristic()//creates a sum of our score
         {
             this.score = 0;
@@ -268,7 +269,7 @@ namespace Score_4
         }
         public int secondaryDScore()//founds 3 in a row or 4 in a row
         {
-            //Secondry diagonal
+            //Secondary diagonal
             int secondaryDiagonalCount = 1;
             int sum = 0;
             int[,] starters = new int[8, 2];
@@ -417,24 +418,7 @@ namespace Score_4
         {
             return this.lastcol;
         }
-        //
-        public void toGraph()
-        {
-            for (int i = 0; i < ROWS_NUM; i++)//row
-            {
-                for (int j = 0; j < COLS_NUM; j++)//col
-                {
-                    Console.Write("|");
-                    Console.Write(Cells[i, j]);
-                }
-                Console.WriteLine("|");
-
-            }
-            Console.WriteLine("");
-            Console.WriteLine("**************************");
-            Console.WriteLine("");
-        }
-        public int[,] sentDataForGraph()
+         public int[,] sentDataForGraph()
         {
             return this.Cells; 
         }
